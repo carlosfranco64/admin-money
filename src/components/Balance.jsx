@@ -35,9 +35,10 @@ export const Balance = () => {
           <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">
             Ingreso
           </p>
-          <p className="text-3xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">
-            ${addMilles(ingreso)}
-          </p>
+          <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">
+  ${addMilles(ingreso)}
+</p>
+
         </Card>
         <Card
           className=" mx-auto max-w-xs px-2 py-3 bg-red-100 border-red-500 border-t-4  text-black rounded-md"
@@ -47,7 +48,7 @@ export const Balance = () => {
           <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">
             Egreso
           </p>
-          <p className="text-3xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">
+          <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">
             ${egreso ? addMilles(egreso) : "0"}
           </p>
         </Card>
@@ -59,7 +60,7 @@ export const Balance = () => {
           <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">
             Ganancia
           </p>
-          <p className={`text-3xl text-tremor-content-strong  dark:text-dark-tremor-content-strong font-semibold`}>
+          <p className={`text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold`}>
             ${ addMilles(ganancia)}
           </p>
         </Card>
