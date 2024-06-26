@@ -26,7 +26,7 @@ export const Balance = () => {
 
   return (
     <div className=" flex justify-center items-center  h-32">
-      <div className="flex  w-[800px] justify-between gap-4">
+      <div className="flex  w-[800px] justify-between gap-4 max-sm:mx-2">
         <Card
           className=" mx-auto max-w-xs px-2 py-3 bg-blue-100 border-blue-500 border-t-4  text-black rounded-md"
           decoration="top"

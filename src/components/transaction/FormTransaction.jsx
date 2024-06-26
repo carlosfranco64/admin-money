@@ -24,7 +24,7 @@ export const FormTransaction = () => {
   };
 
   return (
-    <div className="container mx-auto max-w-4xl p-4 my-6 bg-white shadow-md rounded-lg">
+    <div className="container mx-auto max-w-4xl p-4 my-6 bg-white shadow-md rounded-lg max-sm:">
       <form className="flex flex-col sm:flex-row justify-between items-center" onSubmit={onSubmit}>
         <input
           className="w-full sm:w-1/3 px-4 py-2 mb-4 sm:mb-0 sm:mr-4 text-black border border-gray-300 rounded-md"
@@ -47,4 +47,3 @@ export const FormTransaction = () => {
     </div>
   );
 };
- 
