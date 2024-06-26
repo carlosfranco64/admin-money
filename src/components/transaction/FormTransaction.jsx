@@ -41,7 +41,7 @@ export const FormTransaction = () => {
           placeholder="00.00"
         />
         <button className="w-full sm:w-auto bg-red-700 text-white py-2 px-4 rounded-md hover:bg-red-800 transition duration-300">
-          Add Transaction
+          Te Amo ANA GREY
         </button>
       </form>
     </div>
